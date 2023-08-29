@@ -11,5 +11,8 @@ return {
   -- },
   {
     'Mofiqul/dracula.nvim'
+  },
+  {
+    'fatih/vim-go'
   }
 }
