@@ -9,7 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  -- {
-  --   'Mofiqul/dracula.nvim'
-  -- },
+  {
+    "tpope/vim-fugitive", cmd = "Git"
+  }
 }
