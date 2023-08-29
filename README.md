@@ -34,3 +34,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+#### More packages
+
+Go to https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity (<= press gx on the link)
