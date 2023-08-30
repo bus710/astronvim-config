@@ -11,5 +11,14 @@ return {
   -- },
   {
     "tpope/vim-fugitive", cmd = "Git"
+  },
+  {
+    'simrat39/rust-tools.nvim'
+  },
+  {
+    'nvim-lua/plenary.nvim'
+  },
+  {
+    'mfussenegger/nvim-dap'
   }
 }
