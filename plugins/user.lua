@@ -34,9 +34,10 @@ return {
 
       elixir.setup {
         nextls = { enable = true },
-        credo = {},
+        credo = { enable = true },
         elixirls = {
           enable = true,
+          cmd = "/home/$LOGNAME/.elixir-ls/release/language_server.sh",
           settings = elixirls.settings {
             dialyzerEnabled = false,
             enableTestLenses = false,
