@@ -6,8 +6,9 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.colorscheme.dracula-nvim"},
-  { import = "astrocommunity.debugging.nvim-dap-virtual-text"},
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
+  { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.svelte" },
@@ -21,5 +22,5 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" }
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 }
