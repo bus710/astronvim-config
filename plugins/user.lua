@@ -36,7 +36,7 @@ return {
         nextls = { enable = true },
         credo = { enable = true },
         elixirls = {
-          enable = false,
+          enable = true,
           -- https://github.com/elixir-tools/elixir-tools.nvim/issues/143
           -- ls ~/.cache/nvim/elixir-tools.nvim/installs/elixir-lsp/elixir-ls/
           tag = "v0.15.1",
