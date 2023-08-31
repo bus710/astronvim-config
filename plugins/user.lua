@@ -33,11 +33,10 @@ return {
       local elixirls = require "elixir.elixirls"
 
       elixir.setup {
-        nextls = { enable = true },
+        nextls = { enable = false },
         credo = { enable = true },
         elixirls = {
           enable = true,
-          -- cmd = "/home/$LOGNAME/.elixir-ls/release/language_server.sh",
           settings = elixirls.settings {
             dialyzerEnabled = false,
             enableTestLenses = false,
