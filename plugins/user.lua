@@ -33,10 +33,10 @@ return {
       local elixirls = require "elixir.elixirls"
 
       elixir.setup {
-        nextls = { enable = false },
-        credo = { enable = false },
+        nextls = { enable = true },
+        credo = { enable = true },
         elixirls = {
-          enable = true,
+          enable = false,
           -- https://github.com/elixir-tools/elixir-tools.nvim/issues/143
           -- ls ~/.cache/nvim/elixir-tools.nvim/installs/elixir-lsp/elixir-ls/
           tag = "v0.15.1",
