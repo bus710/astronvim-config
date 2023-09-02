@@ -16,6 +16,11 @@ return {
   { "othree/html5.vim" },
   { "pangloss/vim-javascript" },
   { "evanleck/vim-svelte", branch = "main" },
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {} -- this is equalent to setup({}) function
+  },
   --
   { "simrat39/rust-tools.nvim" },
   --

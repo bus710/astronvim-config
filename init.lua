@@ -126,6 +126,17 @@ return {
     local lspconfig = require "lspconfig"
     local capabilities = vim.lsp.protocol.make_client_capabilities()
 
+    --Enable (broadcasting) snippet capability for completion
+    capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+    -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html
+    lspconfig.html.setup{
+      capabilities = capabilities,
+      cmd = { "vscode-html-language-server", "--stdio" },
+      filetypes = { "html", "elixir", "eelixir", "heex", "svelte" }
+    }
+
+    -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html
     lspconfig.tailwindcss.setup {
       capabilities = capabilities,
       root_dir = lspconfig.util.root_pattern(
@@ -138,7 +149,7 @@ return {
         ".git",
         "mix.exs"
       ),
-      filetypes = { "html", "elixir", "eelixir", "heex" },
+      filetypes = { "html", "elixir", "eelixir", "heex", "svelte" },
       init_options = {
         userLanguages = {
           elixir = "html-eex",
