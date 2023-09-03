@@ -10,8 +10,10 @@ return {
   --   end,
   -- },
   { "tpope/vim-fugitive", cmd = "Git" },
-  { "nvim-lua/plenary.nvim" },
-  { "mfussenegger/nvim-dap" },
+  { 'rbong/vim-flog', cmd = "Flog" },
+  -- 
+  { "nvim-lua/plenary.nvim" }, -- Lua function helpers
+  { "mfussenegger/nvim-dap" }, -- Debug adapter protocol
   --
   { "othree/html5.vim" },
   { "pangloss/vim-javascript" },
