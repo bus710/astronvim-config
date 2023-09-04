@@ -23,4 +23,5 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.git.diffview-nvim"}
 }

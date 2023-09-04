@@ -12,8 +12,14 @@ return {
   --
   --
   -- Git
-  { "tpope/vim-fugitive", cmd = "Git" },
-  { 'rbong/vim-flog', cmd = "Flog" },
+  { "tpope/vim-fugitive", 
+    event = "User AstroGitFile",
+    cmd = "Git"
+  },
+  { 'rbong/vim-flog',
+    event = "User AstroGitFile",
+    cmd = "Flog"
+  },
   -- 
   { "nvim-lua/plenary.nvim" }, -- Lua function helpers
   { "mfussenegger/nvim-dap" }, -- Debug adapter protocol
