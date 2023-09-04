@@ -14,7 +14,8 @@ return {
   -- Git
   { "tpope/vim-fugitive",
     event = "User AstroGitFile",
-    cmd = "Git"
+    cmd = "Git",
+    -- tag = "v3.7",
   },
   { 'rbong/vim-flog',
     event = "User AstroGitFile",
