@@ -18,7 +18,6 @@ return {
   },
   { 'rbong/vim-flog',
     cmd = "Flog"
-    -- Run :Floggit first and then run :Flog to see the graph
   },
   -- 
   { "nvim-lua/plenary.nvim" }, -- Lua function helpers
