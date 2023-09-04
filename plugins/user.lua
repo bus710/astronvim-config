@@ -12,7 +12,7 @@ return {
   --
   --
   -- Git
-  { "tpope/vim-fugitive", 
+  { "tpope/vim-fugitive",
     event = "User AstroGitFile",
     cmd = "Git"
   },
