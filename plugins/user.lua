@@ -14,6 +14,7 @@ return {
   -- Git
   { "tpope/vim-fugitive",
     cmd = "Git",
+    lazy = false,
   },
   { 'rbong/vim-flog',
     cmd = "Flog"
