@@ -13,13 +13,11 @@ return {
   --
   -- Git
   { "tpope/vim-fugitive",
-    event = "User AstroGitFile",
     cmd = "Git",
-    -- tag = "v3.7",
   },
   { 'rbong/vim-flog',
-    event = "User AstroGitFile",
     cmd = "Flog"
+    -- Run :Floggit first and then run :Flog to see the graph
   },
   -- 
   { "nvim-lua/plenary.nvim" }, -- Lua function helpers
