@@ -1,3 +1,5 @@
+-- https://luacheck.readthedocs.io/en/stable/warnings.html
+
 -- Global objects
 globals = {
   "astronvim",
@@ -16,3 +18,5 @@ ignore = {
   "631", -- max_line_length
   "212/_.*", -- unused argument, for vars with "_" prefix
 }
+
+
