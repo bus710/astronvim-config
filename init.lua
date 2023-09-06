@@ -114,6 +114,8 @@ return {
         vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, opts)
         vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
         vim.keymap.set("n", "<space>f", function() vim.lsp.buf.format { async = true } end, opts)
+        vim.keymap.set("n", "gn", vim.diagnostic.disable, opts)
+        vim.keymap.set("n", "gm", vim.diagnostic.enable, opts)
 
         -- vim.api.nvim_create_autocmd("BufWritePre", {
         --   buffer = buffer,
@@ -131,10 +133,10 @@ return {
     capabilities.textDocument.completion.completionItem.snippetSupport = true
 
     -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html
-    lspconfig.html.setup{
+    lspconfig.html.setup {
       capabilities = capabilities,
       cmd = { "vscode-html-language-server", "--stdio" },
-      filetypes = { "html", "elixir", "eelixir", "heex", "svelte" }
+      filetypes = { "html", "elixir", "eelixir", "heex", "svelte" },
     }
 
     -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html
