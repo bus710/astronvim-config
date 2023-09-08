@@ -8,19 +8,22 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
+  --
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.bash" },
+  --
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.git.diffview-nvim"}
