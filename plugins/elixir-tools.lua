@@ -37,3 +37,8 @@ return {
     },
   },
 }
+
+-- :lua vim.lsp.buf.definition() on a token
+-- :LspInfo
+-- :LspLog
+-- :ElixirOutputPanel
