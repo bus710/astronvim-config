@@ -39,4 +39,6 @@ return {
   { "vim-erlang/vim-erlang-omnicomplete" },
   { "vim-erlang/vim-erlang-tags" },
   { "elixir-editors/vim-elixir" },
+  --
+  { "mxsdev/nvim-dap-vscode-js", requires = {"mfussenegger/nvim-dap"}},
 }
