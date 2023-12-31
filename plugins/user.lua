@@ -19,7 +19,7 @@ return {
   { 'rbong/vim-flog',
     cmd = "Flog"
   },
-  -- 
+  --
   { "nvim-lua/plenary.nvim" }, -- Lua function helpers
   { "mfussenegger/nvim-dap" }, -- Debug adapter protocol
   --
@@ -30,6 +30,9 @@ return {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
     opts = {} -- this is equalent to setup({}) function
+  },
+  {
+    'alvan/vim-closetag'
   },
   --
   { "simrat39/rust-tools.nvim" },
