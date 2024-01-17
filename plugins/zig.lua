@@ -1,7 +1,5 @@
 -- https://terminalprogrammer.com/neovim-setup-for-zig
 
-local lazy_dir = vim.fn.stdpath("data") .. "/lazy"
-
 return {
   "mfussenegger/nvim-dap",
 
