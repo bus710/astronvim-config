@@ -35,8 +35,6 @@ return {
     'alvan/vim-closetag'
   },
   --
-  { "simrat39/rust-tools.nvim" },
-  --
   { "vim-erlang/vim-erlang-runtime" },
   { "vim-erlang/vim-erlang-compiler" },
   { "vim-erlang/vim-erlang-omnicomplete" },
