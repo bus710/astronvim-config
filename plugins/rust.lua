@@ -1,4 +1,4 @@
--- https://terminalprogrammer.com/neovim-setup-for-zig
+-- https://kurotych.com/posts/rust_neovim_debugger/
 
 return {
   -- sudo apt install lldb (for the command)
