@@ -10,5 +10,5 @@ return {
   --   version = '^4', -- Recommended
   --   ft = { 'rust' },
   -- },
-  { "saecki/crates.nvim"},
+  { "Saecki/crates.nvim"},
 }
