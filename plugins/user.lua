@@ -42,4 +42,6 @@ return {
   { "elixir-editors/vim-elixir" },
   --
   { "mxsdev/nvim-dap-vscode-js", requires = {"mfussenegger/nvim-dap"}},
+  --
+  { "akinsho/flutter-tools.nvim" }
 }
